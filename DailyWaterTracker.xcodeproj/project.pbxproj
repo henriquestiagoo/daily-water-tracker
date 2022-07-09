@@ -1,0 +1,829 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A85E6C34287A32D800937C3B /* DailyWaterTracker WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = A85E6C33287A32D800937C3B /* DailyWaterTracker WatchKit App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		A85E6C39287A32DA00937C3B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A85E6C38287A32DA00937C3B /* Assets.xcassets */; };
+		A85E6C3F287A32DA00937C3B /* DailyWaterTracker WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = A85E6C3E287A32DA00937C3B /* DailyWaterTracker WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		A85E6C44287A32DA00937C3B /* DailyWaterTrackerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A85E6C43287A32DA00937C3B /* DailyWaterTrackerApp.swift */; };
+		A85E6C46287A32DA00937C3B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A85E6C45287A32DA00937C3B /* ContentView.swift */; };
+		A85E6C48287A32DA00937C3B /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A85E6C47287A32DA00937C3B /* NotificationController.swift */; };
+		A85E6C4A287A32DA00937C3B /* NotificationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A85E6C49287A32DA00937C3B /* NotificationView.swift */; };
+		A85E6C4C287A32DA00937C3B /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A85E6C4B287A32DA00937C3B /* ComplicationController.swift */; };
+		A85E6C4E287A32DA00937C3B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A85E6C4D287A32DA00937C3B /* Assets.xcassets */; };
+		A85E6C51287A32DA00937C3B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A85E6C50287A32DA00937C3B /* Preview Assets.xcassets */; };
+		A85E6C5D287A32DA00937C3B /* DailyWaterTrackerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A85E6C5C287A32DA00937C3B /* DailyWaterTrackerTests.swift */; };
+		A85E6C67287A32DA00937C3B /* DailyWaterTrackerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A85E6C66287A32DA00937C3B /* DailyWaterTrackerUITests.swift */; };
+		A85E6C69287A32DA00937C3B /* DailyWaterTrackerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A85E6C68287A32DA00937C3B /* DailyWaterTrackerUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A85E6C35287A32D800937C3B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A85E6C29287A32D800937C3B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A85E6C32287A32D800937C3B;
+			remoteInfo = "DailyWaterTracker WatchKit App";
+		};
+		A85E6C40287A32DA00937C3B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A85E6C29287A32D800937C3B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A85E6C3D287A32DA00937C3B;
+			remoteInfo = "DailyWaterTracker WatchKit Extension";
+		};
+		A85E6C59287A32DA00937C3B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A85E6C29287A32D800937C3B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A85E6C3D287A32DA00937C3B;
+			remoteInfo = "DailyWaterTracker WatchKit Extension";
+		};
+		A85E6C63287A32DA00937C3B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A85E6C29287A32D800937C3B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A85E6C32287A32D800937C3B;
+			remoteInfo = "DailyWaterTracker WatchKit App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		A85E6C6F287A32DA00937C3B /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				A85E6C3F287A32DA00937C3B /* DailyWaterTracker WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A85E6C73287A32DA00937C3B /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				A85E6C34287A32D800937C3B /* DailyWaterTracker WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		A85E6C2F287A32D800937C3B /* DailyWaterTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DailyWaterTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A85E6C33287A32D800937C3B /* DailyWaterTracker WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "DailyWaterTracker WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A85E6C38287A32DA00937C3B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A85E6C3E287A32DA00937C3B /* DailyWaterTracker WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "DailyWaterTracker WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A85E6C43287A32DA00937C3B /* DailyWaterTrackerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyWaterTrackerApp.swift; sourceTree = "<group>"; };
+		A85E6C45287A32DA00937C3B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A85E6C47287A32DA00937C3B /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		A85E6C49287A32DA00937C3B /* NotificationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationView.swift; sourceTree = "<group>"; };
+		A85E6C4B287A32DA00937C3B /* ComplicationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplicationController.swift; sourceTree = "<group>"; };
+		A85E6C4D287A32DA00937C3B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A85E6C50287A32DA00937C3B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A85E6C52287A32DA00937C3B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A85E6C53287A32DA00937C3B /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		A85E6C58287A32DA00937C3B /* DailyWaterTrackerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DailyWaterTrackerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A85E6C5C287A32DA00937C3B /* DailyWaterTrackerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyWaterTrackerTests.swift; sourceTree = "<group>"; };
+		A85E6C62287A32DA00937C3B /* DailyWaterTrackerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DailyWaterTrackerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A85E6C66287A32DA00937C3B /* DailyWaterTrackerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyWaterTrackerUITests.swift; sourceTree = "<group>"; };
+		A85E6C68287A32DA00937C3B /* DailyWaterTrackerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyWaterTrackerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A85E6C3B287A32DA00937C3B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A85E6C55287A32DA00937C3B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A85E6C5F287A32DA00937C3B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A85E6C28287A32D800937C3B = {
+			isa = PBXGroup;
+			children = (
+				A85E6C37287A32D800937C3B /* DailyWaterTracker WatchKit App */,
+				A85E6C42287A32DA00937C3B /* DailyWaterTracker WatchKit Extension */,
+				A85E6C5B287A32DA00937C3B /* DailyWaterTrackerTests */,
+				A85E6C65287A32DA00937C3B /* DailyWaterTrackerUITests */,
+				A85E6C30287A32D800937C3B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A85E6C30287A32D800937C3B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A85E6C2F287A32D800937C3B /* DailyWaterTracker.app */,
+				A85E6C33287A32D800937C3B /* DailyWaterTracker WatchKit App.app */,
+				A85E6C3E287A32DA00937C3B /* DailyWaterTracker WatchKit Extension.appex */,
+				A85E6C58287A32DA00937C3B /* DailyWaterTrackerTests.xctest */,
+				A85E6C62287A32DA00937C3B /* DailyWaterTrackerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A85E6C37287A32D800937C3B /* DailyWaterTracker WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				A85E6C38287A32DA00937C3B /* Assets.xcassets */,
+			);
+			path = "DailyWaterTracker WatchKit App";
+			sourceTree = "<group>";
+		};
+		A85E6C42287A32DA00937C3B /* DailyWaterTracker WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				A85E6C43287A32DA00937C3B /* DailyWaterTrackerApp.swift */,
+				A85E6C45287A32DA00937C3B /* ContentView.swift */,
+				A85E6C47287A32DA00937C3B /* NotificationController.swift */,
+				A85E6C49287A32DA00937C3B /* NotificationView.swift */,
+				A85E6C4B287A32DA00937C3B /* ComplicationController.swift */,
+				A85E6C4D287A32DA00937C3B /* Assets.xcassets */,
+				A85E6C52287A32DA00937C3B /* Info.plist */,
+				A85E6C53287A32DA00937C3B /* PushNotificationPayload.apns */,
+				A85E6C4F287A32DA00937C3B /* Preview Content */,
+			);
+			path = "DailyWaterTracker WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		A85E6C4F287A32DA00937C3B /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				A85E6C50287A32DA00937C3B /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		A85E6C5B287A32DA00937C3B /* DailyWaterTrackerTests */ = {
+			isa = PBXGroup;
+			children = (
+				A85E6C5C287A32DA00937C3B /* DailyWaterTrackerTests.swift */,
+			);
+			path = DailyWaterTrackerTests;
+			sourceTree = "<group>";
+		};
+		A85E6C65287A32DA00937C3B /* DailyWaterTrackerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A85E6C66287A32DA00937C3B /* DailyWaterTrackerUITests.swift */,
+				A85E6C68287A32DA00937C3B /* DailyWaterTrackerUITestsLaunchTests.swift */,
+			);
+			path = DailyWaterTrackerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A85E6C2E287A32D800937C3B /* DailyWaterTracker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A85E6C74287A32DA00937C3B /* Build configuration list for PBXNativeTarget "DailyWaterTracker" */;
+			buildPhases = (
+				A85E6C2D287A32D800937C3B /* Resources */,
+				A85E6C73287A32DA00937C3B /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A85E6C36287A32D800937C3B /* PBXTargetDependency */,
+			);
+			name = DailyWaterTracker;
+			productName = DailyWaterTracker;
+			productReference = A85E6C2F287A32D800937C3B /* DailyWaterTracker.app */;
+			productType = "com.apple.product-type.application.watchapp2-container";
+		};
+		A85E6C32287A32D800937C3B /* DailyWaterTracker WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A85E6C70287A32DA00937C3B /* Build configuration list for PBXNativeTarget "DailyWaterTracker WatchKit App" */;
+			buildPhases = (
+				A85E6C31287A32D800937C3B /* Resources */,
+				A85E6C6F287A32DA00937C3B /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A85E6C41287A32DA00937C3B /* PBXTargetDependency */,
+			);
+			name = "DailyWaterTracker WatchKit App";
+			productName = "DailyWaterTracker WatchKit App";
+			productReference = A85E6C33287A32D800937C3B /* DailyWaterTracker WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		A85E6C3D287A32DA00937C3B /* DailyWaterTracker WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A85E6C6C287A32DA00937C3B /* Build configuration list for PBXNativeTarget "DailyWaterTracker WatchKit Extension" */;
+			buildPhases = (
+				A85E6C3A287A32DA00937C3B /* Sources */,
+				A85E6C3B287A32DA00937C3B /* Frameworks */,
+				A85E6C3C287A32DA00937C3B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "DailyWaterTracker WatchKit Extension";
+			productName = "DailyWaterTracker WatchKit Extension";
+			productReference = A85E6C3E287A32DA00937C3B /* DailyWaterTracker WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+		A85E6C57287A32DA00937C3B /* DailyWaterTrackerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A85E6C77287A32DA00937C3B /* Build configuration list for PBXNativeTarget "DailyWaterTrackerTests" */;
+			buildPhases = (
+				A85E6C54287A32DA00937C3B /* Sources */,
+				A85E6C55287A32DA00937C3B /* Frameworks */,
+				A85E6C56287A32DA00937C3B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A85E6C5A287A32DA00937C3B /* PBXTargetDependency */,
+			);
+			name = DailyWaterTrackerTests;
+			productName = DailyWaterTrackerTests;
+			productReference = A85E6C58287A32DA00937C3B /* DailyWaterTrackerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A85E6C61287A32DA00937C3B /* DailyWaterTrackerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A85E6C7A287A32DA00937C3B /* Build configuration list for PBXNativeTarget "DailyWaterTrackerUITests" */;
+			buildPhases = (
+				A85E6C5E287A32DA00937C3B /* Sources */,
+				A85E6C5F287A32DA00937C3B /* Frameworks */,
+				A85E6C60287A32DA00937C3B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A85E6C64287A32DA00937C3B /* PBXTargetDependency */,
+			);
+			name = DailyWaterTrackerUITests;
+			productName = DailyWaterTrackerUITests;
+			productReference = A85E6C62287A32DA00937C3B /* DailyWaterTrackerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A85E6C29287A32D800937C3B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					A85E6C2E287A32D800937C3B = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					A85E6C32287A32D800937C3B = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					A85E6C3D287A32DA00937C3B = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					A85E6C57287A32DA00937C3B = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = A85E6C3D287A32DA00937C3B;
+					};
+					A85E6C61287A32DA00937C3B = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = A85E6C32287A32D800937C3B;
+					};
+				};
+			};
+			buildConfigurationList = A85E6C2C287A32D800937C3B /* Build configuration list for PBXProject "DailyWaterTracker" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A85E6C28287A32D800937C3B;
+			productRefGroup = A85E6C30287A32D800937C3B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A85E6C2E287A32D800937C3B /* DailyWaterTracker */,
+				A85E6C32287A32D800937C3B /* DailyWaterTracker WatchKit App */,
+				A85E6C3D287A32DA00937C3B /* DailyWaterTracker WatchKit Extension */,
+				A85E6C57287A32DA00937C3B /* DailyWaterTrackerTests */,
+				A85E6C61287A32DA00937C3B /* DailyWaterTrackerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A85E6C2D287A32D800937C3B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A85E6C31287A32D800937C3B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A85E6C39287A32DA00937C3B /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A85E6C3C287A32DA00937C3B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A85E6C51287A32DA00937C3B /* Preview Assets.xcassets in Resources */,
+				A85E6C4E287A32DA00937C3B /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A85E6C56287A32DA00937C3B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A85E6C60287A32DA00937C3B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A85E6C3A287A32DA00937C3B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A85E6C48287A32DA00937C3B /* NotificationController.swift in Sources */,
+				A85E6C46287A32DA00937C3B /* ContentView.swift in Sources */,
+				A85E6C4C287A32DA00937C3B /* ComplicationController.swift in Sources */,
+				A85E6C44287A32DA00937C3B /* DailyWaterTrackerApp.swift in Sources */,
+				A85E6C4A287A32DA00937C3B /* NotificationView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A85E6C54287A32DA00937C3B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A85E6C5D287A32DA00937C3B /* DailyWaterTrackerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A85E6C5E287A32DA00937C3B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A85E6C67287A32DA00937C3B /* DailyWaterTrackerUITests.swift in Sources */,
+				A85E6C69287A32DA00937C3B /* DailyWaterTrackerUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A85E6C36287A32D800937C3B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A85E6C32287A32D800937C3B /* DailyWaterTracker WatchKit App */;
+			targetProxy = A85E6C35287A32D800937C3B /* PBXContainerItemProxy */;
+		};
+		A85E6C41287A32DA00937C3B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A85E6C3D287A32DA00937C3B /* DailyWaterTracker WatchKit Extension */;
+			targetProxy = A85E6C40287A32DA00937C3B /* PBXContainerItemProxy */;
+		};
+		A85E6C5A287A32DA00937C3B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A85E6C3D287A32DA00937C3B /* DailyWaterTracker WatchKit Extension */;
+			targetProxy = A85E6C59287A32DA00937C3B /* PBXContainerItemProxy */;
+		};
+		A85E6C64287A32DA00937C3B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A85E6C32287A32D800937C3B /* DailyWaterTracker WatchKit App */;
+			targetProxy = A85E6C63287A32DA00937C3B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		A85E6C6A287A32DA00937C3B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A85E6C6B287A32DA00937C3B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A85E6C6D287A32DA00937C3B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"DailyWaterTracker WatchKit Extension/Preview Content\"";
+				DEVELOPMENT_TEAM = P82VY4LSH8;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "DailyWaterTracker WatchKit Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "DailyWaterTracker WatchKit Extension";
+				INFOPLIST_KEY_CLKComplicationPrincipalClass = "$(PRODUCT_MODULE_NAME).ComplicationController";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tiago.henriques.DailyWaterTracker.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 8.5;
+			};
+			name = Debug;
+		};
+		A85E6C6E287A32DA00937C3B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"DailyWaterTracker WatchKit Extension/Preview Content\"";
+				DEVELOPMENT_TEAM = P82VY4LSH8;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "DailyWaterTracker WatchKit Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "DailyWaterTracker WatchKit Extension";
+				INFOPLIST_KEY_CLKComplicationPrincipalClass = "$(PRODUCT_MODULE_NAME).ComplicationController";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tiago.henriques.DailyWaterTracker.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 8.5;
+			};
+			name = Release;
+		};
+		A85E6C71287A32DA00937C3B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = P82VY4LSH8;
+				GENERATE_INFOPLIST_FILE = YES;
+				IBSC_MODULE = DailyWaterTracker_WatchKit_Extension;
+				INFOPLIST_KEY_CFBundleDisplayName = "DailyWaterTracker WatchKit App";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tiago.henriques.DailyWaterTracker.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 8.5;
+			};
+			name = Debug;
+		};
+		A85E6C72287A32DA00937C3B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = P82VY4LSH8;
+				GENERATE_INFOPLIST_FILE = YES;
+				IBSC_MODULE = DailyWaterTracker_WatchKit_Extension;
+				INFOPLIST_KEY_CFBundleDisplayName = "DailyWaterTracker WatchKit App";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tiago.henriques.DailyWaterTracker.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 8.5;
+			};
+			name = Release;
+		};
+		A85E6C75287A32DA00937C3B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = P82VY4LSH8;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tiago.henriques.DailyWaterTracker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		A85E6C76287A32DA00937C3B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = P82VY4LSH8;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tiago.henriques.DailyWaterTracker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		A85E6C78287A32DA00937C3B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = P82VY4LSH8;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tiago.henriques.DailyWaterTrackerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DailyWaterTracker WatchKit Extension.appex/DailyWaterTracker WatchKit Extension";
+				WATCHOS_DEPLOYMENT_TARGET = 8.5;
+			};
+			name = Debug;
+		};
+		A85E6C79287A32DA00937C3B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = P82VY4LSH8;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tiago.henriques.DailyWaterTrackerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DailyWaterTracker WatchKit Extension.appex/DailyWaterTracker WatchKit Extension";
+				WATCHOS_DEPLOYMENT_TARGET = 8.5;
+			};
+			name = Release;
+		};
+		A85E6C7B287A32DA00937C3B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = P82VY4LSH8;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tiago.henriques.DailyWaterTrackerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "DailyWaterTracker WatchKit App";
+				WATCHOS_DEPLOYMENT_TARGET = 8.5;
+			};
+			name = Debug;
+		};
+		A85E6C7C287A32DA00937C3B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = P82VY4LSH8;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tiago.henriques.DailyWaterTrackerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "DailyWaterTracker WatchKit App";
+				WATCHOS_DEPLOYMENT_TARGET = 8.5;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A85E6C2C287A32D800937C3B /* Build configuration list for PBXProject "DailyWaterTracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A85E6C6A287A32DA00937C3B /* Debug */,
+				A85E6C6B287A32DA00937C3B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A85E6C6C287A32DA00937C3B /* Build configuration list for PBXNativeTarget "DailyWaterTracker WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A85E6C6D287A32DA00937C3B /* Debug */,
+				A85E6C6E287A32DA00937C3B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A85E6C70287A32DA00937C3B /* Build configuration list for PBXNativeTarget "DailyWaterTracker WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A85E6C71287A32DA00937C3B /* Debug */,
+				A85E6C72287A32DA00937C3B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A85E6C74287A32DA00937C3B /* Build configuration list for PBXNativeTarget "DailyWaterTracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A85E6C75287A32DA00937C3B /* Debug */,
+				A85E6C76287A32DA00937C3B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A85E6C77287A32DA00937C3B /* Build configuration list for PBXNativeTarget "DailyWaterTrackerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A85E6C78287A32DA00937C3B /* Debug */,
+				A85E6C79287A32DA00937C3B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A85E6C7A287A32DA00937C3B /* Build configuration list for PBXNativeTarget "DailyWaterTrackerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A85E6C7B287A32DA00937C3B /* Debug */,
+				A85E6C7C287A32DA00937C3B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A85E6C29287A32D800937C3B /* Project object */;
+}
