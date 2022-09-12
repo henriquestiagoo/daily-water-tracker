@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A84AD17C287CC00B00E1C650 /* SwiftUICharts in Frameworks */ = {isa = PBXBuildFile; productRef = A84AD17B287CC00B00E1C650 /* SwiftUICharts */; };
 		A85E6C34287A32D800937C3B /* DailyWaterTracker WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = A85E6C33287A32D800937C3B /* DailyWaterTracker WatchKit App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		A85E6C39287A32DA00937C3B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A85E6C38287A32DA00937C3B /* Assets.xcassets */; };
 		A85E6C3F287A32DA00937C3B /* DailyWaterTracker WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = A85E6C3E287A32DA00937C3B /* DailyWaterTracker WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
@@ -20,6 +21,12 @@
 		A85E6C5D287A32DA00937C3B /* DailyWaterTrackerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A85E6C5C287A32DA00937C3B /* DailyWaterTrackerTests.swift */; };
 		A85E6C67287A32DA00937C3B /* DailyWaterTrackerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A85E6C66287A32DA00937C3B /* DailyWaterTrackerUITests.swift */; };
 		A85E6C69287A32DA00937C3B /* DailyWaterTrackerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A85E6C68287A32DA00937C3B /* DailyWaterTrackerUITestsLaunchTests.swift */; };
+		A888A176287B3CDB0020ECCF /* HealthStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = A888A175287B3CDB0020ECCF /* HealthStore.swift */; };
+		A888A17A287B41C40020ECCF /* HealthKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A888A179287B41C40020ECCF /* HealthKit.framework */; };
+		A888A17D287B42B70020ECCF /* WaterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A888A17C287B42B70020ECCF /* WaterView.swift */; };
+		A888A180287B43F20020ECCF /* LogWaterButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = A888A17F287B43F20020ECCF /* LogWaterButton.swift */; };
+		A888A183287B4A500020ECCF /* WaterGraphData.swift in Sources */ = {isa = PBXBuildFile; fileRef = A888A182287B4A500020ECCF /* WaterGraphData.swift */; };
+		A888A185287B4BB00020ECCF /* BarChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = A888A184287B4BB00020ECCF /* BarChart.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -97,6 +104,13 @@
 		A85E6C62287A32DA00937C3B /* DailyWaterTrackerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DailyWaterTrackerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A85E6C66287A32DA00937C3B /* DailyWaterTrackerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyWaterTrackerUITests.swift; sourceTree = "<group>"; };
 		A85E6C68287A32DA00937C3B /* DailyWaterTrackerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyWaterTrackerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		A888A175287B3CDB0020ECCF /* HealthStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthStore.swift; sourceTree = "<group>"; };
+		A888A177287B41C40020ECCF /* DailyWaterTracker WatchKit Extension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "DailyWaterTracker WatchKit Extension.entitlements"; sourceTree = "<group>"; };
+		A888A179287B41C40020ECCF /* HealthKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HealthKit.framework; path = Platforms/WatchOS.platform/Developer/SDKs/WatchOS8.5.sdk/System/Library/Frameworks/HealthKit.framework; sourceTree = DEVELOPER_DIR; };
+		A888A17C287B42B70020ECCF /* WaterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaterView.swift; sourceTree = "<group>"; };
+		A888A17F287B43F20020ECCF /* LogWaterButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogWaterButton.swift; sourceTree = "<group>"; };
+		A888A182287B4A500020ECCF /* WaterGraphData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaterGraphData.swift; sourceTree = "<group>"; };
+		A888A184287B4BB00020ECCF /* BarChart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarChart.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +118,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A888A17A287B41C40020ECCF /* HealthKit.framework in Frameworks */,
+				A84AD17C287CC00B00E1C650 /* SwiftUICharts in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -132,6 +148,7 @@
 				A85E6C5B287A32DA00937C3B /* DailyWaterTrackerTests */,
 				A85E6C65287A32DA00937C3B /* DailyWaterTrackerUITests */,
 				A85E6C30287A32D800937C3B /* Products */,
+				A888A178287B41C40020ECCF /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -158,11 +175,13 @@
 		A85E6C42287A32DA00937C3B /* DailyWaterTracker WatchKit Extension */ = {
 			isa = PBXGroup;
 			children = (
+				A888A181287B4A440020ECCF /* Models */,
+				A888A17B287B42A80020ECCF /* Views */,
+				A888A177287B41C40020ECCF /* DailyWaterTracker WatchKit Extension.entitlements */,
 				A85E6C43287A32DA00937C3B /* DailyWaterTrackerApp.swift */,
-				A85E6C45287A32DA00937C3B /* ContentView.swift */,
 				A85E6C47287A32DA00937C3B /* NotificationController.swift */,
-				A85E6C49287A32DA00937C3B /* NotificationView.swift */,
 				A85E6C4B287A32DA00937C3B /* ComplicationController.swift */,
+				A888A175287B3CDB0020ECCF /* HealthStore.swift */,
 				A85E6C4D287A32DA00937C3B /* Assets.xcassets */,
 				A85E6C52287A32DA00937C3B /* Info.plist */,
 				A85E6C53287A32DA00937C3B /* PushNotificationPayload.apns */,
@@ -196,6 +215,34 @@
 			path = DailyWaterTrackerUITests;
 			sourceTree = "<group>";
 		};
+		A888A178287B41C40020ECCF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A888A179287B41C40020ECCF /* HealthKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A888A17B287B42A80020ECCF /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				A85E6C45287A32DA00937C3B /* ContentView.swift */,
+				A85E6C49287A32DA00937C3B /* NotificationView.swift */,
+				A888A17C287B42B70020ECCF /* WaterView.swift */,
+				A888A17F287B43F20020ECCF /* LogWaterButton.swift */,
+				A888A184287B4BB00020ECCF /* BarChart.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		A888A181287B4A440020ECCF /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				A888A182287B4A500020ECCF /* WaterGraphData.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -212,6 +259,9 @@
 				A85E6C36287A32D800937C3B /* PBXTargetDependency */,
 			);
 			name = DailyWaterTracker;
+			packageProductDependencies = (
+				A84AD17A287CBFFF00E1C650 /* SwiftUICharts */,
+			);
 			productName = DailyWaterTracker;
 			productReference = A85E6C2F287A32D800937C3B /* DailyWaterTracker.app */;
 			productType = "com.apple.product-type.application.watchapp2-container";
@@ -246,6 +296,9 @@
 			dependencies = (
 			);
 			name = "DailyWaterTracker WatchKit Extension";
+			packageProductDependencies = (
+				A84AD17B287CC00B00E1C650 /* SwiftUICharts */,
+			);
 			productName = "DailyWaterTracker WatchKit Extension";
 			productReference = A85E6C3E287A32DA00937C3B /* DailyWaterTracker WatchKit Extension.appex */;
 			productType = "com.apple.product-type.watchkit2-extension";
@@ -324,6 +377,9 @@
 				Base,
 			);
 			mainGroup = A85E6C28287A32D800937C3B;
+			packageReferences = (
+				A84AD179287CBFFF00E1C650 /* XCRemoteSwiftPackageReference "SwiftUICharts" */,
+			);
 			productRefGroup = A85E6C30287A32D800937C3B /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -383,10 +439,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A888A180287B43F20020ECCF /* LogWaterButton.swift in Sources */,
 				A85E6C48287A32DA00937C3B /* NotificationController.swift in Sources */,
+				A888A183287B4A500020ECCF /* WaterGraphData.swift in Sources */,
+				A888A176287B3CDB0020ECCF /* HealthStore.swift in Sources */,
 				A85E6C46287A32DA00937C3B /* ContentView.swift in Sources */,
 				A85E6C4C287A32DA00937C3B /* ComplicationController.swift in Sources */,
+				A888A17D287B42B70020ECCF /* WaterView.swift in Sources */,
 				A85E6C44287A32DA00937C3B /* DailyWaterTrackerApp.swift in Sources */,
+				A888A185287B4BB00020ECCF /* BarChart.swift in Sources */,
 				A85E6C4A287A32DA00937C3B /* NotificationView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -550,6 +611,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_ENTITLEMENTS = "DailyWaterTracker WatchKit Extension/DailyWaterTracker WatchKit Extension.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"DailyWaterTracker WatchKit Extension/Preview Content\"";
@@ -558,7 +620,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "DailyWaterTracker WatchKit Extension/Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = "DailyWaterTracker WatchKit Extension";
-				INFOPLIST_KEY_CLKComplicationPrincipalClass = "$(PRODUCT_MODULE_NAME).ComplicationController";
+				INFOPLIST_KEY_CLKComplicationPrincipalClass = DailyWaterTracker_WatchKit_Extension.ComplicationController;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INFOPLIST_KEY_WKWatchOnly = YES;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -582,6 +644,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_ENTITLEMENTS = "DailyWaterTracker WatchKit Extension/DailyWaterTracker WatchKit Extension.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"DailyWaterTracker WatchKit Extension/Preview Content\"";
@@ -590,7 +653,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "DailyWaterTracker WatchKit Extension/Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = "DailyWaterTracker WatchKit Extension";
-				INFOPLIST_KEY_CLKComplicationPrincipalClass = "$(PRODUCT_MODULE_NAME).ComplicationController";
+				INFOPLIST_KEY_CLKComplicationPrincipalClass = DailyWaterTracker_WatchKit_Extension.ComplicationController;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INFOPLIST_KEY_WKWatchOnly = YES;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -824,6 +887,30 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		A84AD179287CBFFF00E1C650 /* XCRemoteSwiftPackageReference "SwiftUICharts" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/mecid/SwiftUICharts";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		A84AD17A287CBFFF00E1C650 /* SwiftUICharts */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A84AD179287CBFFF00E1C650 /* XCRemoteSwiftPackageReference "SwiftUICharts" */;
+			productName = SwiftUICharts;
+		};
+		A84AD17B287CC00B00E1C650 /* SwiftUICharts */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A84AD179287CBFFF00E1C650 /* XCRemoteSwiftPackageReference "SwiftUICharts" */;
+			productName = SwiftUICharts;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = A85E6C29287A32D800937C3B /* Project object */;
 }

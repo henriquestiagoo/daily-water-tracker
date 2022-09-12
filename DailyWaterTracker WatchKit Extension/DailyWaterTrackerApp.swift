@@ -9,11 +9,14 @@ import SwiftUI
 
 @main
 struct DailyWaterTrackerApp: App {
+    @StateObject var healthStore = HealthStore()
+
     @SceneBuilder var body: some Scene {
         WindowGroup {
             NavigationView {
                 ContentView()
             }
+            .environmentObject(healthStore)
         }
 
         WKNotificationScene(controller: NotificationController.self, category: "myCategory")
