@@ -8,9 +8,6 @@
 import Foundation
 import HealthKit
 
-import Foundation
-import HealthKit
-
 class HealthStore: NSObject, ObservableObject {
 
     private var healthStore: HKHealthStore?
