@@ -12,6 +12,5 @@ This is how the application looks like:
 
 <p float="center">
   <img src="https://tiagohenriques.vercel.app/static/images/blog/watchos-healthkit-app/app-root-view.png" width="33%" />
-  <img src="https://tiagohenriques.vercel.app/static/images/blog/watchos-healthkit-app/app-water-view.png" width="33%" /> 
   <img src="https://tiagohenriques.vercel.app/static/images/blog/watchos-healthkit-app/water-bar-chart.png" width="33%" /> 
 </p>
