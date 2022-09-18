@@ -49,11 +49,11 @@ struct BarChart_Previews: PreviewProvider {
         BarChart(data: [
             WaterGraphData(value: 104, symbol: "1"),
             WaterGraphData(value: 105, symbol: "2"),
-          WaterGraphData(value: 300, symbol: "3"),
-          WaterGraphData(value: 400, symbol: "4"),
-          WaterGraphData(value: 500, symbol: "5"),
-          WaterGraphData(value: 600, symbol: "6"),
-          WaterGraphData(value: 700, symbol: "7")
+            WaterGraphData(value: 300, symbol: "3"),
+            WaterGraphData(value: 400, symbol: "4"),
+            WaterGraphData(value: 500, symbol: "5"),
+            WaterGraphData(value: 600, symbol: "6"),
+            WaterGraphData(value: 700, symbol: "7")
         ])
     }
 }
