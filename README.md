@@ -1,4 +1,4 @@
-# Daily-Water-Tracker
+# daily-water-tracker
 
 Hi there! 👋 
 
