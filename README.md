@@ -2,7 +2,7 @@
 
 Hi there! 👋 
 
-This application showcases **Daily Water Tracker**, an app that will help you stay hydrated by tracking your weekly water consumption. 
+This repo showcases **Daily Water Tracker**, an app that will help you stay hydrated by tracking your weekly water consumption. 
 
 It serves as the base of the writing of the blog post ["'Hello, Apple Watch ⌚"](https://tiagohenriques.vercel.app/blog/watchos-healthkit-app).
 
